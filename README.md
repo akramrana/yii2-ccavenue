@@ -39,7 +39,7 @@ Yii2 [ccavenue](https://www.ccavenue.com/) payment gateway integration.
   Here ***auto*** is the submission mode,   
        ***test*** is the name of environment of ccavenue.  
   it will be two test and production.  
-       ***websites** is the server name which i use for testing.  
+       ***websites*** is the server name which i use for testing.  
   it can be live,local,websites or anything which u want.  
 
   for more details check yii2-ccavenue/components/Ccavenue class.  
