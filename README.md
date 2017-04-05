@@ -3,18 +3,18 @@ Yii2 [ccavenue](https://www.ccavenue.com/) payment gateway integration.
 
 ## Installation
 1.Make a components folder to your project if it does not exist.  
-  Copy the yii2-ccvaenue/components/Ccavenue Class into the folder.  
+  Copy the yii2-ccavenue/components/Ccavenue Class into the folder.  
 
-2.Now open the yii2-ccvaenue/config folder and copy the function.php file,  paste this into your project config folder.
+2.Now open the yii2-ccavenue/config folder and copy the function.php file,  paste this into your project config folder.
 
 3.Include the function.php file into the config/web.php file in your project.  
-  for refference please check the yii2-ccvaenue/config/web.php file.
+  for reference please check the yii2-ccavenue/config/web.php file.
 
-4.In yii2-ccvaenue/SiteController before action method i have  
+4.In yii2-ccavenue/SiteController before action method i have  
   removed the csrf validation for **payment-process** and **payment-cancel** method, because this   
   2 method will be handle the ccavenue api request.  
 
-5.yii2-ccvaenue/SiteController **actionSubscription** will process your request and submit the request   
+5.yii2-ccavenue/SiteController **actionSubscription** will process your request and submit the request   
   to the ccvaenue payment gateway.  
   ```
   $redirectUrl = Url::to(['site/payment-process'], true);
@@ -40,10 +40,10 @@ Yii2 [ccavenue](https://www.ccavenue.com/) payment gateway integration.
        ***websites** is the server name which i use for testing.  
   it can be live,local,websites or anything which u want.  
 
-  for more details check yii2-ccvaenue/components/Ccavenue class.  
+  for more details check yii2-ccavenue/components/Ccavenue class.  
 
-6.Copy the yii2-ccvaenue/SiteController ***actionPaymentProcess*** and ***actionPaymentCancel***  
-  methods with views(yii2-ccvaenue/views.*)  
+6.Copy the yii2-ccavenue/SiteController ***actionPaymentProcess*** and ***actionPaymentCancel***  
+  methods with views(yii2-ccavenue/views.*)  
 
 
   Your are done!!.  
