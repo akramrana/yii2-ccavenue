@@ -16,6 +16,8 @@ Yii2 [ccavenue](https://www.ccavenue.com/) payment gateway integration.
 
 5.yii2-ccavenue/SiteController **actionSubscription** will process your request and submit the request   
   to the ccvaenue payment gateway.  
+  don't forget to copy yii2-ccavenue/views/subscription.php file into your views.
+
   ```
   $redirectUrl = Url::to(['site/payment-process'], true);
             $cancelUrl = Url::to(['site/payment-cancel'], true);
