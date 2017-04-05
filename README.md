@@ -47,6 +47,9 @@ Yii2 [ccavenue](https://www.ccavenue.com/) payment gateway integration.
 6.Copy the yii2-ccavenue/SiteController ***actionPaymentProcess*** and ***actionPaymentCancel***  
   methods with views(yii2-ccavenue/views.*)  
 
+7.***actionPaymentProcess*** and ***actionPaymentCancel*** in this two method you have to use  
+  exact same ***working key*** which you used to submit request to ccavenue.  
+  for reference please check yii2-ccavenue/components/Ccavenue Class ***form** method.  
 
   Your are done!!.  
 
