@@ -49,7 +49,7 @@ Yii2 [ccavenue](https://www.ccavenue.com/) payment gateway integration.
 
 7.***actionPaymentProcess*** and ***actionPaymentCancel*** in this two method you have to use  
   exact same ***working key*** which you used to submit request to ccavenue.  
-  for reference please check yii2-ccavenue/components/Ccavenue Class ***form** method.  
+  for reference please check yii2-ccavenue/components/Ccavenue Class ***form*** method.  
 
   Your are done!!.  
 
