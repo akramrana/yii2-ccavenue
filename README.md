@@ -52,7 +52,7 @@ Yii2 [ccavenue](https://www.ccavenue.com/) payment gateway integration.
 ## Note
 I have made this for educational purpose also for reducing the development time.  
 i did not found any helpful resources for ccavenue payment gateway integration in yii2.  
-Hope it will helps someone.  
+Hope it will help someone.  
 Good luck!!!  
 
    
